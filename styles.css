@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Header {
+    display: flex;
+    background-color: #1F2937;
+
+}
+
+.Logo {
+    padding-left: 200px;
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 700;
+    text-wrap: nowrap;
+}
+
+.right-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    margin:
+}
+
+ul {
+    list-style-type: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
