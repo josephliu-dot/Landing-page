@@ -1,17 +1,15 @@
 body {
-    display: flex;
-    flex-direction: column;
+margin: 0;
 }
 
 
 .Header {
     display: flex;
     background-color: #1F2937;
-
 }
 
 .Logo {
-    padding-left: 200px;
+    padding-left: 150px;
     font-size: 24px;
     color: #f9faf8;
     font-weight: 700;
@@ -22,12 +20,61 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    width: 100%;
-    margin:
+    width: 60%;
+    margin: 3px;
+    gap: 16px;
 }
 
 ul {
     list-style-type: none;
     color: #E5E7EB;
     font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.contentstart {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1F2937;
+}
+
+.contentstarttext {
+    flex: 50%;
+}
+
+.header1 {
+    padding: 75px 0 0 150px;
+    color:#f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+    text-wrap: wrap;
+    max-width: 75%;
+}
+
+.text1 {
+    padding-left: 150px;
+    color: #E5E7EB;
+    font-size: 18px;
+    max-width: 50%;
+}
+
+button {
+    background-color: #3882F6;
+    margin-top: 15px;
+    border: 2px solid #3882F6;
+    border-radius: 6px;
+    width: 6%;
+    color:#f9faf8;
+}
+
+.img1 {
+    flex: 50%;
+   object-fit: contain;
+   max-width: 550px;
+   justify-content: flex-end;
+   padding: 0 175px 0 0;
 }
