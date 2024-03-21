@@ -83,3 +83,34 @@ a {
    justify-content: flex-end;
    padding: 25px 175px 0 0;
 }
+
+.contentmiddle {
+    display: flex;
+  justify-content: center;
+  margin-top: 32px; 
+  gap: 52px;
+}
+
+.header2 {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
+    margin-top: 30px;
+}
+
+.pic-image {
+    max-width: 200px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-color:#3882F6;
+}
+
+.picture-info{
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    align-items: center;
+}
