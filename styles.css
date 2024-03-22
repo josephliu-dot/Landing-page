@@ -114,3 +114,75 @@ a {
     justify-content: center;   
     align-items: center;
 }
+
+.contentend {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    max-width: 80%;
+    margin: 100px 100px 25px 150px;
+    display: flex;
+    justify-content: center;
+    text-wrap: wrap;
+}
+
+.quotename {
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 20px;
+    padding: 20px 220px 100px 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.signup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #3882F6;
+    padding: 50px 50px 50px 150px;
+}
+
+.button2 {
+    background-color: #3882F6;
+    border-radius: 6px;
+    border-color: white;
+    margin-top: 10px;
+    margin-right: 150px;
+    color: white;
+    padding: 20px;
+    font-weight: 700;
+    text-align: center;
+    box-sizing: content-box;
+}
+
+.buttonclick {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -60px;
+}
+
+.signuphead {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.signuptext {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px 50px 0;
+    color: #E5E7EB;
+    background-color: #1F2937;
+    font-size: 22px;
+}
